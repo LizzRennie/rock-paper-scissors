@@ -54,7 +54,7 @@ function select(weapon) {
       } else if (randomNum === 1) {
         result.innerHTML = `Any way you cut it, scissors beats paper. Congratulations! 🎉`
       } else if (randomNum === 2) {
-        result.innerHTML = `You may wish to give this another try, tough guy; this one's a tie. 🥨`;
+        result.innerHTML = `You may wish to give this another try, tough guy! This one's a tie. 🥨`;
       }
       break;
     }
