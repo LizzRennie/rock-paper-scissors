@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/ab1d452360.js" crossorigin="anonymous"></script>
+  <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+  <h1>Choose your weapon</h1>
+  <!-- Options-->
+  <div class="container">
+    <div id="rock" class="box rock" onclick="select('rock')"><i class="far fa-hand-rock"></i></div>
+    <div id="paper" class="box paper" onclick="select('paper')"><i class="far fa-hand-paper"></i></div>
+    <div id="scissors" class="box scissors" onclick="select('scissors')"><i class="far fa-hand-scissors"></i></div>
+  </div>
+  <!-- Results -->
+  <p id="result" class="result hidden">Feeling lucky? 🍀</p>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>
