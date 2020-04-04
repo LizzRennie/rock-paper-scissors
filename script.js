@@ -52,7 +52,7 @@ function select(weapon) {
       if (randomNum === 0) {
         result.innerHTML = `Sorry to crush your dreams, but rock beats paper! 😵`;
       } else if (randomNum === 1) {
-        result.innerHTML = `Any way you cut it, scissors beats paper. Congratulations! 🎉`
+        result.innerHTML = `Any way you cut it, scissors beats paper! 🎉`
       } else if (randomNum === 2) {
         result.innerHTML = `You may wish to give this another try, tough guy! This one's a tie. 🥨`;
       }
