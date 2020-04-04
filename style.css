@@ -8,8 +8,11 @@ body {
   display: flex;
   flex-flow: row wrap;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2em;
+  font-size: 1.7em;
   justify-content: center;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -23,8 +26,9 @@ h1 {
   color: #111;
   display: flex;
   justify-content: space-evenly;
-  padding: 2em;
-  width: 40vw;
+  padding: 50px 0 50px 0;
+  margin: 20px 0 20px 0;
+  width: 100vw;
 }
 
 .box {
@@ -33,11 +37,11 @@ h1 {
   border: 10px solid rgb(16, 16, 199);
   border-radius: 50%;
   display: flex;
-  font-size: 3rem;
-  height: 4em;
+  font-size: 1.7em;
+  height: 2.7em;
   justify-content: center;
-  padding: 40px;
-  width: 4em;
+  padding: 25px;
+  width: 2.7em;
 }
 
 .box:hover {
@@ -49,7 +53,35 @@ h1 {
   background: rgb(199, 237, 250);
 }
 
-.result {
+.result-container {
   text-align: center;
   width: 90vw;
+}
+
+@media all and (min-width: 768) {
+  .box {
+    font-size: 2.5rem;
+    height: 3.5em;
+    width: 3.5em;
+    padding: 35px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .container {
+    padding: 30px 50px 30px 50px;
+    width: 60vw;
+  }
+
+  .box {
+    font-size: 3rem;
+    height: 4em;
+    width: 4em;
+    padding: 40px;
+  }
+
+  .result-container {
+    width: 60vw;
+    padding: 0 20px 0 20px;
+  }
 }
